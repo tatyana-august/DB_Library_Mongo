@@ -1,3 +1,8 @@
+cd /d C:\Program Files\MongoDB\Server\4.0\bin
+
+mongod --pathdb=D:\Tatyana's_files\UNN\Master_program\2year\DB\DB_Library_Mongo\DB_Library_Mongo\db
+
+
 show dbs
 use books
 db.books.insert({id:'0', name:'Евгений Онегин', author:'0', genre:'0', language:'русский'})

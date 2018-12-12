@@ -10,6 +10,7 @@
               <option value="localhost:27017" />
             </list>
           </option>
+          <option name="shellWorkingDir" value="C:\Program Files\MongoDB\Server\4.0\bin" />
           <option name="sshTunnelingConfiguration">
             <SshTunnelingConfiguration />
           </option>
