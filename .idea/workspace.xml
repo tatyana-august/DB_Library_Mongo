@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e0a898-0dca-4938-b5fa-88dda8db4dfa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/mongoSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mongoSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DB_Library_Mongo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DB_Library_Mongo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/db/WiredTiger.turtle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/WiredTiger.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/_mdb_catalog.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/_mdb_catalog.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/collection-2--5995418828065105077.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/collection-2--5995418828065105077.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/index-3--5995418828065105077.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-3--5995418828065105077.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/journal/WiredTigerLog.0000000002" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/mongod.lock" beforeDir="false" afterPath="$PROJECT_DIR$/db/mongod.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/sizeStorer.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/src/Library.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/src/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pack/View/View.iml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,36 +36,52 @@
           <entry key="Localhost/books/genres" value="2" />
           <entry key="Localhost/local/startup_log" value="1" />
           <entry key="Localhost/test/books" value="2" />
-          <entry key="form" value="1" />
-          <entry key="java" value="1" />
+          <entry key="form" value="2" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="4" />
           <entry key="sessions" value="1" />
           <entry key="version" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="GUI_DESIGNER_FORM" value="1" />
-          <entry key="JAVA" value="1" />
+          <entry key="GUI_DESIGNER_FORM" value="2" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="4" />
           <entry key="MONGO" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="369" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="369" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/View/src/Library.java">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/View/src/MainForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#806#807#0" expanded="true" />
+                <element signature="e#862#863#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/View/src/Library.form">
+        <entry file="file://$PROJECT_DIR$/View/src/MainForm.form">
           <provider selected="true" editor-type-id="ui-designer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="mongo://Localhost/books/books">
-          <provider selected="true" editor-type-id="MongoData" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -77,7 +89,7 @@
           <provider selected="true" editor-type-id="MongoData" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="mongo://Localhost/books/authors">
           <provider selected="true" editor-type-id="MongoData" />
         </entry>
@@ -99,6 +111,18 @@
       <map>
         <entry key="$PROJECT_DIR$/../../../Agile/agile-course-practice/code/golovanova-converter-temperatures" value="PREVIEW" />
       </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/View/src/Main.java" />
+        <option value="$PROJECT_DIR$/pack/View/src/Library.java" />
+        <option value="$PROJECT_DIR$/View/src/Library.java" />
+        <option value="$PROJECT_DIR$/View/src/Library.form" />
+        <option value="$PROJECT_DIR$/View/src/MainForm.form" />
+        <option value="$PROJECT_DIR$/View/src/MainForm.java" />
+      </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -130,6 +154,13 @@
               <item name="View" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DB_Library_Mongo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DB_Library_Mongo" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MainForm" type="e9f4de52:FormNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -140,12 +171,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="mong&#9;ACTION&#9;ActivateMongoExplorerToolWindow" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544623018358" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="352" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544638058731" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="C:/Program Files/MongoDB/Server/4.0/bin" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.mongoOptions" />
   </component>
   <component name="RunDashboard">
@@ -159,6 +191,37 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Application.MainForm">
+    <configuration name="Library" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_162\jre" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="View.src.MainForm" />
+      <module name="DB_Library_Mongo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="View.src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Library" />
+      <item itemvalue="Application.MainForm" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainForm" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -175,26 +238,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1010" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16343042" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13349515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49838188" weight="0.3295325" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4975728" visible="true" weight="0.3295325" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" visible="true" weight="0.47890535" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5008091" side_tool="true" visible="true" weight="0.47890535" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" weight="0.47890535" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50242716" side_tool="true" visible="true" weight="0.3295325" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -212,11 +277,40 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/View/src/Library.java">
+    <entry file="file://$PROJECT_DIR$/pack/View/src/Library.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pack/View/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pack/View/src/Library.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/View.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/View/src/Library.form">
+    <entry file="file://$PROJECT_DIR$/View/src/MainForm.form">
       <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/src/MainForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
@@ -270,10 +364,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+          <last-edited>DB_Library_Mongo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
