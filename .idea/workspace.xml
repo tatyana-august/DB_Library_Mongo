@@ -21,73 +21,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Localhost/books/books" value="11" />
+          <entry key="Localhost/books/books" value="14" />
           <entry key="Localhost/local/startup_log" value="1" />
-          <entry key="Localhost/test/books" value="1" />
+          <entry key="Localhost/test/books" value="2" />
           <entry key="sessions" value="1" />
           <entry key="version" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="MONGO" value="15" />
+          <entry key="MONGO" value="19" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="mongo://Localhost/test/books">
-          <provider selected="true" editor-type-id="MongoData" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="mongo://Localhost/books/books">
-          <provider selected="true" editor-type-id="MongoData" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="mongo://Localhost/books/books">
-          <provider selected="true" editor-type-id="MongoData" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="mongo://Localhost/books/books">
-          <provider selected="true" editor-type-id="MongoData" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="mongo://Localhost/books/books">
-          <provider selected="true" editor-type-id="MongoData" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="mongo://Localhost/books/books">
-          <provider selected="true" editor-type-id="MongoData" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="mongo://Localhost/admin/system.version">
-          <provider selected="true" editor-type-id="MongoData" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="mongo://Localhost/local/startup_log">
-          <provider selected="true" editor-type-id="MongoData" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="mongo://Localhost/config/system.sessions">
-          <provider selected="true" editor-type-id="MongoData" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="mongo://Localhost/books/books">
-          <provider selected="true" editor-type-id="MongoData" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -151,7 +100,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1641791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

@@ -1,0 +1,7 @@
+show dbs
+use books
+db.books.insert({id:'0', name:'Евгений Онегин', author:'0', genre:'0', language:'русский'})
+db.authors.insert({id:'0', name:'Пушкин А.С.', books:'0'})
+db.genres.insert({id:'0', name:'Роман', books:'0'})
+
+exit
