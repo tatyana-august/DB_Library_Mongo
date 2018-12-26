@@ -21,8 +21,10 @@
       <TextField fx:id="searchArea" layoutX="52.0" layoutY="57.0" prefHeight="25.0" prefWidth="105.0"/>
       <TableView fx:id="tableSearch" layoutX="76.0" layoutY="137.0" prefHeight="200.0" prefWidth="200.0">
         <columns>
-          <TableColumn prefWidth="75.0" text="C1" />
-          <TableColumn prefWidth="75.0" text="C2" />
+          <TableColumn prefWidth="75.0" text="Название" fx:id="bookNameCol"/>
+          <TableColumn prefWidth="75.0" text="Автор" fx:id="authorCol"/>
+            <TableColumn prefWidth="75.0" text="Жанр" fx:id="genreCol"/>
+           <TableColumn prefWidth="75.0" text="Язык" fx:id="langCol"/>
         </columns>
       </TableView>
    </children>
