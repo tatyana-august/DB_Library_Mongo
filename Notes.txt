@@ -9,15 +9,34 @@ mongo.exe
 
 db.serverCmdLineOpts() // узнать путь БД
 
+поправь расширение на .js и можно через лоадзагрузить данные
+ 
+чтобы очистить полностью существующую бд 
+db.dropDatabase()
+load("D:\\Tatyana's_files\\UNN\\Master_program\\2year\\DB\\DB_Library_Mongo\\DB_Library_Mongo\\data.js")
+
+
 
 show dbs
 use books
-db.books.insert({id:'0', name:'Евгений Онегин', author:'0', genre:'0', language:'русский'})
+db.books.insert({id:'0', name:'Евгений Онегин', author:'0', genre:'0', language:'русский', status:'library'})
 db.authors.insert({id:'0', name:'Пушкин А.С.', books:'0'})
 db.genres.insert({id:'0', name:'Роман', books:'0'})
 
-db.books.insert({id:'1', name:'Ворона и лисица', author:'1', genre:'1', language:'русский'})
+db.books.insert({id:'1', name:'Ворона и лисица', author:'1', genre:'1', language:'русский', status:'hand'})
 db.authors.insert({id:'1', name:'Крылов И.А.', books:'1'})
 db.genres.insert({id:'1', name:'Басня', books:'1'})
+
+db.books.insert({id:'2', name:'Капитанская дочка', author:'0', genre:'0', language:'русский', status:'library'})
+//db.authors.insert({id:'0', name:'Пушкин А.С.', books:'0'})
+db.users.updateOne({name : "Пушкин А.С."}, {$push: {books: '2'}})
+db.genres.insert({id:'0', name:'Роман', books:'0'})
+
+db.authors.insert({id:'5', name:'5', books:[]})
+db.authors.findOneAndUpdate({"name" : "5"}, {$push: {books: [6]}})
+
+
+
+
 
 exit
